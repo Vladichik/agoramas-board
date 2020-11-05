@@ -1,0 +1,17 @@
+{
+  "entry": "server.js",
+  "files": {
+    "lang-en.js": "lang-en.js",
+    "lang-he.js": "lang-he.js",
+    "lang-ru.js": "lang-ru.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "lang-en.js": "lang-en.js.map",
+    "lang-he.js": "lang-he.js.map",
+    "lang-ru.js": "lang-ru.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

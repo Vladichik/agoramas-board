@@ -1,0 +1,1 @@
+{"version":3,"file":"lang-ru.js","sources":["webpack:///./assets/lang/ru.js"],"sourcesContent":["/**\n *\n * Written by vlad on 02/11/2020\n */\n\nexport default {\n  hello: 'Привет'\n}\n"],"mappings":";;;;;;;AAAA;AAAA;AACA;AACA;AACA;AAEA;AACA;AADA;;;;A","sourceRoot":""}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90419a26-71ed-486e-8003-3ab7fd1ec41f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jmSeezbhzasidhWsXhQsTamIhN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90419a26-71ed-486e-8003-3ab7fd1ec41f" name="Default Changelist" comment="" />
+      <created>1604407873381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604407873381</updated>
+      <workItem from="1604407875279" duration="695000" />
+      <workItem from="1604409109229" duration="25339000" />
+      <workItem from="1604590096143" duration="295000" />
+      <workItem from="1604590493043" duration="105000" />
+      <workItem from="1604590605468" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604577460806">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="304" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.975@0.23.1680.975" timestamp="1604577460806" />
+    <state x="492" y="296" key="EditFileWatcherDialog" timestamp="1604429053533">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="492" y="296" key="EditFileWatcherDialog/0.23.1680.975@0.23.1680.975" timestamp="1604429053533" />
+    <state width="1659" height="263" key="GridCell.Tab.0.bottom" timestamp="1604582076299">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1659" height="263" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1604582076299" />
+    <state width="1659" height="263" key="GridCell.Tab.0.center" timestamp="1604582076298">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1659" height="263" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1604582076298" />
+    <state width="1659" height="263" key="GridCell.Tab.0.left" timestamp="1604582076297">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1659" height="263" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1604582076297" />
+    <state width="1659" height="263" key="GridCell.Tab.0.right" timestamp="1604582076299">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1659" height="263" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1604582076299" />
+    <state x="341" y="149" key="SettingsEditor" timestamp="1604590620193">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="341" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1604590620193" />
+    <state x="538" y="265" width="604" height="490" key="find.popup" timestamp="1604429537201">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="538" y="265" width="604" height="490" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1604429537201" />
+  </component>
+</project>

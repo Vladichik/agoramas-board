@@ -1,0 +1,39 @@
+@import "variables";
+@import "mixins";
+@import "rtl";
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden !important;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+#__nuxt, #__layout {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.theme--light.v-application {
+  background-color: $app_background !important;
+}
+
+.v-application--wrap {
+  @include setGrid(null, null, auto 1fr, 5px, "rows")
+}
+
+.v-list.v-sheet {
+  padding: 0;
+}
+
+.ag-content {
+  padding: 0 15px 0 0;
+}
+
+.ag-board-content {
+  padding: 15px 0 0 0;
+}
