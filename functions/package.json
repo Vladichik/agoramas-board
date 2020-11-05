@@ -22,7 +22,9 @@
     "vuetify-loader": "^1.0.8",
     "@nuxtjs/pwa": "^2.6.0",
     "nuxt-i18n": "^6.13.8",
-    "vue-country-flag": "^2.0.2"
+    "vue-country-flag": "^2.0.2",
+    "@nuxtjs/firebase": "^7.0.0",
+    "firebase": "^8.0.0"
   },
   "devDependencies": {
     "firebase-functions-test": "^0.2.0",

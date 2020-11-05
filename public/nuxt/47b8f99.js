@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{222:function(o,e,n){"use strict";n.r(e),e.default={hello:"Hello"}}}]);

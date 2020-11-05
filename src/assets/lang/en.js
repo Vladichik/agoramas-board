@@ -31,8 +31,31 @@ export default {
     sale: 'Sale',
     buying: 'Want to buy',
     passing: 'Passing',
+    found: 'Found',
     delayed: 'Delayed',
     adoption: 'Adoption',
     mating: 'Mating'
+  },
+  animal_type: 'Animal Type',
+  animal_types: {
+    cats: 'Cats',
+    dogs: 'Dogs',
+    birds: 'Birds',
+    fishes: 'Fishes',
+    other: 'Other'
+  },
+  breed: 'Breed',
+  breeds_cat: {
+    siam: 'Siam',
+    himalaya: 'Himalayan',
+    ragdoll: 'Ragdoll',
+    mainecoon: 'Maine Coon',
+    scottish: 'Scottish',
+    persian: 'Persian',
+    british: 'British',
+    sphinx: 'Sphinx',
+    burma: 'Burma',
+    angora: 'Angora',
+    siberian: 'Siberian'
   }
 }

@@ -5,6 +5,7 @@
     "lang-he.js": "lang-he.js",
     "lang-ru.js": "lang-ru.js",
     "pages/index.js": "pages/index.js",
+    "pages/pets.js": "pages/pets.js",
     "server.js": "server.js"
   },
   "maps": {
@@ -12,6 +13,7 @@
     "lang-he.js": "lang-he.js.map",
     "lang-ru.js": "lang-ru.js.map",
     "pages/index.js": "pages/index.js.map",
+    "pages/pets.js": "pages/pets.js.map",
     "server.js": "server.js.map"
   }
 }

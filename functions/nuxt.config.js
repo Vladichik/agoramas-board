@@ -23,6 +23,7 @@ module.exports = {
     '@nuxtjs/vuetify'
   ],
   modules: [
+    '@nuxtjs/firebase',
     ['nuxt-i18n',
       {
         locales: [
@@ -57,6 +58,37 @@ module.exports = {
       }
     ]
   ],
+  firebase: {
+    config: {
+      production: {
+        apiKey: 'AIzaSyDt0tnvB4VsTHIa2WR9ob-qtFl8GXJQVOo',
+        authDomain: 'agoramas-board.firebaseapp.com',
+        databaseURL: 'https://agoramas-board.firebaseio.com',
+        projectId: 'agoramas-board',
+        storageBucket: 'agoramas-board.appspot.com',
+        messagingSenderId: '147304521630',
+        appId: '1:147304521630:web:955e3282c76fb97e74408f'
+      },
+      development: {
+        apiKey: 'AIzaSyDt0tnvB4VsTHIa2WR9ob-qtFl8GXJQVOo',
+        authDomain: 'agoramas-board.firebaseapp.com',
+        databaseURL: 'https://agoramas-board.firebaseio.com',
+        projectId: 'agoramas-board',
+        storageBucket: 'agoramas-board.appspot.com',
+        messagingSenderId: '147304521630',
+        appId: '1:147304521630:web:a6ab54b5419855d374408f'
+      }
+    },
+    services: {
+      auth: true,
+      firestore: true,
+      functions: true,
+      storage: true,
+      database: true,
+      performance: true,
+      analytics: true
+    }
+  },
   buildDir: '.nuxt',
   build: {
     extractCSS: true

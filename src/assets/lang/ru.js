@@ -35,5 +35,27 @@ export default {
     delayed: 'Передержка',
     adoption: 'Пансион',
     mating: 'Вязка'
+  },
+  animal_type: 'Тип животного',
+  animal_types: {
+    cats: 'Кошки',
+    dogs: 'Собаки',
+    birds: 'Птицы',
+    fishes: 'Рыбы',
+    other: 'Другие'
+  },
+  breed: 'Порода',
+  breeds_cat: {
+    siam: 'Сиамские',
+    himalaya: 'Гималайские',
+    ragdoll: 'Рэгдолл',
+    mainecoon: 'Мэйн Кун',
+    scottish: 'Шотландские',
+    persian: 'Персидские',
+    british: 'Британские',
+    sphinx: 'Сфинксы',
+    burma: 'Бирма',
+    angora: 'Ангора',
+    siberian: 'Сибирский'
   }
 }

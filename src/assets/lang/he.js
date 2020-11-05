@@ -35,5 +35,27 @@ export default {
     delayed: 'בית זמני',
     adoption: 'פנסיון',
     mating: 'זיווג'
+  },
+  animal_type: 'סוג חייה',
+  animal_types: {
+    cats: 'חתולים',
+    dogs: 'כלבים',
+    birds: 'ציפורים',
+    fishes: 'דגים',
+    other: 'אחר'
+  },
+  breed: 'גזע',
+  breeds_cat: {
+    siam: 'סיאמי',
+    himalaya: 'הימאלאי',
+    ragdoll: 'ראנדול',
+    mainecoon: 'מיין קון',
+    scottish: 'סקוטי',
+    persian: 'פרסי',
+    british: 'בריטי',
+    sphinx: 'ספינקס',
+    burma: 'בירמה',
+    angora: 'אנגורי',
+    siberian: 'סיבירי'
   }
 }
