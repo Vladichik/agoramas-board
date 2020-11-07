@@ -94,8 +94,18 @@ __webpack_require__.r(__webpack_exports__);
     sphinx: 'Сфинксы',
     burma: 'Бирма',
     angora: 'Ангора',
-    siberian: 'Сибирский'
-  }
+    siberian: 'Сибирский',
+    breedless: 'Без породный'
+  },
+  gender: 'Пол',
+  genders_pets: {
+    male: 'Самец',
+    female: 'Самка'
+  },
+  age: 'Возраст',
+  country: 'Страна',
+  apply: 'Применить',
+  clear_ft: 'Очистить'
 });
 
 /***/ })

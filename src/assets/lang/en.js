@@ -56,6 +56,16 @@ export default {
     sphinx: 'Sphinx',
     burma: 'Burma',
     angora: 'Angora',
-    siberian: 'Siberian'
-  }
+    siberian: 'Siberian',
+    breedless: 'Breedless'
+  },
+  gender: 'Gender',
+  genders_pets: {
+    male: 'Male',
+    female: 'Female'
+  },
+  age: 'Age',
+  country: 'Country',
+  apply: 'Apply',
+  clear_ft: 'Clear Filters'
 }

@@ -16,7 +16,8 @@ module.exports = {
   css: [
     '@/assets/styles/main.scss'
   ],
-  plugins: [],
+  plugins: [
+  ],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',

@@ -94,8 +94,18 @@ __webpack_require__.r(__webpack_exports__);
     sphinx: 'ספינקס',
     burma: 'בירמה',
     angora: 'אנגורי',
-    siberian: 'סיבירי'
-  }
+    siberian: 'סיבירי',
+    breedless: 'לא גזעי'
+  },
+  gender: 'מין',
+  genders_pets: {
+    male: 'זכר',
+    female: 'נקבה'
+  },
+  age: 'גיל',
+  country: 'מדיניה',
+  apply: 'סנן תוצאות',
+  clear_ft: 'נקה'
 });
 
 /***/ })

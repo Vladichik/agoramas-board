@@ -2,7 +2,12 @@
   <div class="ag-filters-block">
     <v-expansion-panels focusable>
       <v-expansion-panel>
-        <v-expansion-panel-header>{{ $t('filters') }}</v-expansion-panel-header>
+        <v-expansion-panel-header>
+          <div>
+            <v-icon>mdi-filter</v-icon>
+            {{ $t('filters') }}
+          </div>
+        </v-expansion-panel-header>
         <v-expansion-panel-content class="ag-filters-content">
           <pets-filter />
         </v-expansion-panel-content>
@@ -37,7 +42,17 @@ export default {
   }
 
   .ag-filters-grid {
+    margin-bottom: 55px;
+    align-items: center;
     @include setGrid(repeat(auto-fit, minmax(220px, 250px)), 20px, auto, 25px, "both");
+  }
+
+  .v-input__slot {
+    margin: 0;
+  }
+
+  .v-messages {
+    display: none;
   }
 }
 </style>

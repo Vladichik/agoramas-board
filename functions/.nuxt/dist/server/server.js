@@ -232,44 +232,44 @@ const trailingSlash = undefined;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return createSimpleFunctional; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return createSimpleFunctional; });
 /* unused harmony export directiveConfig */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return addOnceEventListener; });
-/* unused harmony export passiveSupported */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return passiveSupported; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return addPassiveEventListener; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return getNestedValue; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return deepEqual; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return getObjectValueByPath; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return getPropertyFromItem; });
-/* unused harmony export createRange */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return getZIndex; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return escapeHTML; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return filterObjectOnKeys; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return getNestedValue; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return deepEqual; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return getObjectValueByPath; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return getPropertyFromItem; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return createRange; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return getZIndex; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return escapeHTML; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return filterObjectOnKeys; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return convertToUnit; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return kebabCase; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return kebabCase; });
 /* unused harmony export isObject */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return keyCodes; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return remapInternalIcon; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return keys; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return keyCodes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return remapInternalIcon; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return keys; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return camelize; });
 /* unused harmony export arrayDiff */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return upperFirst; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return upperFirst; });
 /* unused harmony export groupItems */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return wrapInArray; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return wrapInArray; });
 /* unused harmony export sortItems */
 /* unused harmony export defaultFilter */
 /* unused harmony export searchItems */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return getSlotType; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return getSlotType; });
 /* unused harmony export debounce */
 /* unused harmony export throttle */
 /* unused harmony export getPrefixedScopedSlots */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return getSlot; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return getSlot; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return clamp; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return padEnd; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return padEnd; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return chunk; });
 /* unused harmony export humanReadableFileSize */
 /* unused harmony export camelizeObjectKeys */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return mergeDeep; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return mergeDeep; });
 /* unused harmony export fillArray */
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
@@ -1250,9 +1250,9 @@ function parseHex(hex) {
   }
 
   if (hex.length === 6) {
-    hex = Object(_helpers__WEBPACK_IMPORTED_MODULE_1__[/* padEnd */ "u"])(hex, 8, 'F');
+    hex = Object(_helpers__WEBPACK_IMPORTED_MODULE_1__[/* padEnd */ "v"])(hex, 8, 'F');
   } else {
-    hex = Object(_helpers__WEBPACK_IMPORTED_MODULE_1__[/* padEnd */ "u"])(Object(_helpers__WEBPACK_IMPORTED_MODULE_1__[/* padEnd */ "u"])(hex, 6), 8, 'F');
+    hex = Object(_helpers__WEBPACK_IMPORTED_MODULE_1__[/* padEnd */ "v"])(Object(_helpers__WEBPACK_IMPORTED_MODULE_1__[/* padEnd */ "v"])(hex, 6), 8, 'F');
   }
 
   return `#${hex}`.toUpperCase().substr(0, 9);
@@ -1627,7 +1627,7 @@ function toXYZ(rgb) {
       const path = `_vnode.data.class.${activeClass}`;
       this.$nextTick(() => {
         /* istanbul ignore else */
-        if (Object(_util_helpers__WEBPACK_IMPORTED_MODULE_2__[/* getObjectValueByPath */ "l"])(this.$refs.link, path)) {
+        if (Object(_util_helpers__WEBPACK_IMPORTED_MODULE_2__[/* getObjectValueByPath */ "m"])(this.$refs.link, path)) {
           this.toggle();
         }
       });
@@ -2015,7 +2015,7 @@ class presets_Presets extends Service {
   constructor(parentPreset, parent) {
     super(); // The default preset
 
-    const defaultPreset = Object(helpers["t" /* mergeDeep */])({}, default_preset); // The user provided preset
+    const defaultPreset = Object(helpers["u" /* mergeDeep */])({}, default_preset); // The user provided preset
 
     const {
       userPreset
@@ -2030,7 +2030,7 @@ class presets_Presets extends Service {
       Object(console["c" /* consoleWarn */])('Global presets do not support the **preset** option, it can be safely omitted');
     }
 
-    parent.preset = Object(helpers["t" /* mergeDeep */])(Object(helpers["t" /* mergeDeep */])(defaultPreset, globalPreset), preset);
+    parent.preset = Object(helpers["u" /* mergeDeep */])(Object(helpers["u" /* mergeDeep */])(defaultPreset, globalPreset), preset);
   }
 
 }
@@ -2600,7 +2600,7 @@ class icons_Icons extends Service {
       values
     } = preset[icons_Icons.property];
     this.iconfont = iconfont;
-    this.values = Object(helpers["t" /* mergeDeep */])(presets[iconfont], values);
+    this.values = Object(helpers["u" /* mergeDeep */])(presets[iconfont], values);
   }
 
 }
@@ -2616,7 +2616,7 @@ const fallback = Symbol('Lang fallback');
 
 function getTranslation(locale, key, usingDefault = false, defaultLocale) {
   const shortKey = key.replace(LANG_PREFIX, '');
-  let translation = Object(helpers["l" /* getObjectValueByPath */])(locale, shortKey, fallback);
+  let translation = Object(helpers["m" /* getObjectValueByPath */])(locale, shortKey, fallback);
 
   if (translation === fallback) {
     if (usingDefault) {
@@ -3076,7 +3076,7 @@ class theme_Theme extends Service {
   }
 
   get parsedTheme() {
-    return parse(this.currentTheme || {}, undefined, Object(helpers["k" /* getNestedValue */])(this.options, ['variations'], true));
+    return parse(this.currentTheme || {}, undefined, Object(helpers["l" /* getNestedValue */])(this.options, ['variations'], true));
   } // Is using v2.3 of vue-meta
   // https://github.com/nuxt/vue-meta/releases/tag/v2.3.0
 
@@ -3377,7 +3377,7 @@ function rippleCancelShow(e) {
 let keyboardRipple = false;
 
 function keyboardRippleShow(e) {
-  if (!keyboardRipple && (e.keyCode === _util_helpers__WEBPACK_IMPORTED_MODULE_1__[/* keyCodes */ "r"].enter || e.keyCode === _util_helpers__WEBPACK_IMPORTED_MODULE_1__[/* keyCodes */ "r"].space)) {
+  if (!keyboardRipple && (e.keyCode === _util_helpers__WEBPACK_IMPORTED_MODULE_1__[/* keyCodes */ "s"].enter || e.keyCode === _util_helpers__WEBPACK_IMPORTED_MODULE_1__[/* keyCodes */ "s"].space)) {
     keyboardRipple = true;
     rippleShow(e);
   }
@@ -3544,7 +3544,7 @@ const availableProps = {
 function factory(selected = []) {
   return vue__WEBPACK_IMPORTED_MODULE_0___default.a.extend({
     name: 'positionable',
-    props: selected.length ? Object(_util_helpers__WEBPACK_IMPORTED_MODULE_1__[/* filterObjectOnKeys */ "j"])(availableProps, selected) : availableProps
+    props: selected.length ? Object(_util_helpers__WEBPACK_IMPORTED_MODULE_1__[/* filterObjectOnKeys */ "k"])(availableProps, selected) : availableProps
   });
 }
 /* harmony default export */ __webpack_exports__["a"] = (factory()); // Add a `*` before the second `/`
@@ -3623,7 +3623,7 @@ let all = factory().extend({
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return factory; });
-/* harmony import */ var _registrable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(34);
+/* harmony import */ var _registrable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(35);
 // Mixins
 
 function factory(namespace, child, parent) {
@@ -3735,7 +3735,7 @@ const Constants = {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BaseItemGroup; });
 /* harmony import */ var _src_components_VItemGroup_VItemGroup_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(73);
 /* harmony import */ var _src_components_VItemGroup_VItemGroup_sass__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_components_VItemGroup_VItemGroup_sass__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _mixins_proxyable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(40);
+/* harmony import */ var _mixins_proxyable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(41);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5);
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3);
@@ -4036,7 +4036,7 @@ const VIcon = Object(_util_mixins__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"
     getIcon() {
       let iconName = '';
       if (this.$slots.default) iconName = this.$slots.default[0].text.trim();
-      return Object(_util_helpers__WEBPACK_IMPORTED_MODULE_5__[/* remapInternalIcon */ "v"])(this, iconName);
+      return Object(_util_helpers__WEBPACK_IMPORTED_MODULE_5__[/* remapInternalIcon */ "x"])(this, iconName);
     },
 
     getSize() {
@@ -4047,7 +4047,7 @@ const VIcon = Object(_util_mixins__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"
         large: this.large,
         xLarge: this.xLarge
       };
-      const explicitSize = Object(_util_helpers__WEBPACK_IMPORTED_MODULE_5__[/* keys */ "s"])(sizes).find(key => sizes[key]);
+      const explicitSize = Object(_util_helpers__WEBPACK_IMPORTED_MODULE_5__[/* keys */ "t"])(sizes).find(key => sizes[key]);
       return explicitSize && SIZE_MAP[explicitSize] || Object(_util_helpers__WEBPACK_IMPORTED_MODULE_5__[/* convertToUnit */ "f"])(this.size);
     },
 
@@ -4267,7 +4267,7 @@ var installComponents = __webpack_require__(10);
 var installComponents_default = /*#__PURE__*/__webpack_require__.n(installComponents);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VIcon/index.js
-var VIcon = __webpack_require__(35);
+var VIcon = __webpack_require__(34);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/components/VBtn/VBtn.js + 3 modules
 var VBtn = __webpack_require__(53);
@@ -4619,6 +4619,16 @@ module.exports = require("cookie");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var _VIcon__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(27);
+
+
+/* harmony default export */ __webpack_exports__["a"] = (_VIcon__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]);
+
+/***/ }),
+/* 35 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return inject; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return provide; });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
@@ -4660,16 +4670,6 @@ function provide(namespace, self = false) {
 
   });
 }
-
-/***/ }),
-/* 35 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _VIcon__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(27);
-
-
-/* harmony default export */ __webpack_exports__["a"] = (_VIcon__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]);
 
 /***/ }),
 /* 36 */,
@@ -4779,6 +4779,69 @@ function provide(namespace, self = false) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* unused harmony export ClickOutside */
+function defaultConditional() {
+  return true;
+}
+
+function directive(e, el, binding) {
+  const handler = typeof binding.value === 'function' ? binding.value : binding.value.handler;
+  const isActive = typeof binding.value === 'object' && binding.value.closeConditional || defaultConditional; // The include element callbacks below can be expensive
+  // so we should avoid calling them when we're not active.
+  // Explicitly check for false to allow fallback compatibility
+  // with non-toggleable components
+
+  if (!e || isActive(e) === false) return; // Check if additional elements were passed to be included in check
+  // (click must be outside all included elements, if any)
+
+  const elements = (typeof binding.value === 'object' && binding.value.include || (() => []))(); // Add the root element for the component this directive was defined on
+
+
+  elements.push(el); // Check if it's a click outside our elements, and then if our callback returns true.
+  // Non-toggleable components should take action in their callback and return falsy.
+  // Toggleable can return true if it wants to deactivate.
+  // Note that, because we're in the capture phase, this callback will occur before
+  // the bubbling click event on any outside elements.
+
+  !elements.some(el => el.contains(e.target)) && setTimeout(() => {
+    isActive(e) && handler && handler(e);
+  }, 0);
+}
+
+const ClickOutside = {
+  // [data-app] may not be found
+  // if using bind, inserted makes
+  // sure that the root element is
+  // available, iOS does not support
+  // clicks on body
+  inserted(el, binding) {
+    const onClick = e => directive(e, el, binding); // iOS does not recognize click events on document
+    // or body, this is the entire purpose of the v-app
+    // component and [data-app], stop removing this
+
+
+    const app = document.querySelector('[data-app]') || document.body; // This is only for unit tests
+
+    app.addEventListener('click', onClick, true);
+    el._clickOutside = onClick;
+  },
+
+  unbind(el) {
+    if (!el._clickOutside) return;
+    const app = document.querySelector('[data-app]') || document.body; // This is only for unit tests
+
+    app && app.removeEventListener('click', el._clickOutside, true);
+    delete el._clickOutside;
+  }
+
+};
+/* harmony default export */ __webpack_exports__["a"] = (ClickOutside);
+
+/***/ }),
+/* 40 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* unused harmony export Resize */
 function inserted(el, binding) {
   const callback = binding.value;
@@ -4813,7 +4876,7 @@ const Resize = {
 /* harmony default export */ __webpack_exports__["a"] = (Resize);
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4868,7 +4931,7 @@ const Proxyable = factory();
 /* harmony default export */ __webpack_exports__["a"] = (Proxyable);
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4942,69 +5005,6 @@ function searchChildren(children) {
 
   }
 }));
-
-/***/ }),
-/* 42 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export ClickOutside */
-function defaultConditional() {
-  return true;
-}
-
-function directive(e, el, binding) {
-  const handler = typeof binding.value === 'function' ? binding.value : binding.value.handler;
-  const isActive = typeof binding.value === 'object' && binding.value.closeConditional || defaultConditional; // The include element callbacks below can be expensive
-  // so we should avoid calling them when we're not active.
-  // Explicitly check for false to allow fallback compatibility
-  // with non-toggleable components
-
-  if (!e || isActive(e) === false) return; // Check if additional elements were passed to be included in check
-  // (click must be outside all included elements, if any)
-
-  const elements = (typeof binding.value === 'object' && binding.value.include || (() => []))(); // Add the root element for the component this directive was defined on
-
-
-  elements.push(el); // Check if it's a click outside our elements, and then if our callback returns true.
-  // Non-toggleable components should take action in their callback and return falsy.
-  // Toggleable can return true if it wants to deactivate.
-  // Note that, because we're in the capture phase, this callback will occur before
-  // the bubbling click event on any outside elements.
-
-  !elements.some(el => el.contains(e.target)) && setTimeout(() => {
-    isActive(e) && handler && handler(e);
-  }, 0);
-}
-
-const ClickOutside = {
-  // [data-app] may not be found
-  // if using bind, inserted makes
-  // sure that the root element is
-  // available, iOS does not support
-  // clicks on body
-  inserted(el, binding) {
-    const onClick = e => directive(e, el, binding); // iOS does not recognize click events on document
-    // or body, this is the entire purpose of the v-app
-    // component and [data-app], stop removing this
-
-
-    const app = document.querySelector('[data-app]') || document.body; // This is only for unit tests
-
-    app.addEventListener('click', onClick, true);
-    el._clickOutside = onClick;
-  },
-
-  unbind(el) {
-    if (!el._clickOutside) return;
-    const app = document.querySelector('[data-app]') || document.body; // This is only for unit tests
-
-    app && app.removeEventListener('click', el._clickOutside, true);
-    delete el._clickOutside;
-  }
-
-};
-/* harmony default export */ __webpack_exports__["a"] = (ClickOutside);
 
 /***/ }),
 /* 43 */
@@ -8409,9 +8409,9 @@ if (false) {}
 
 
 
-const _ee2be51a = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 4).then(__webpack_require__.bind(null, 148)));
+const _ee2be51a = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 4).then(__webpack_require__.bind(null, 159)));
 
-const _553b7ba3 = () => interopDefault(__webpack_require__.e(/* import() | pages/pets */ 5).then(__webpack_require__.bind(null, 149))); // TODO: remove in Nuxt 3
+const _553b7ba3 = () => interopDefault(__webpack_require__.e(/* import() | pages/pets */ 5).then(__webpack_require__.bind(null, 160))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -11261,7 +11261,7 @@ const baseMixins = Object(_util_mixins__WEBPACK_IMPORTED_MODULE_9__[/* default *
     data[this.to ? 'nativeOn' : 'on'] = { ...data[this.to ? 'nativeOn' : 'on'],
       keydown: e => {
         /* istanbul ignore else */
-        if (e.keyCode === _util_helpers__WEBPACK_IMPORTED_MODULE_7__[/* keyCodes */ "r"].enter) this.click(e);
+        if (e.keyCode === _util_helpers__WEBPACK_IMPORTED_MODULE_7__[/* keyCodes */ "s"].enter) this.click(e);
         this.$emit('keydown', e);
       }
     };
@@ -11568,7 +11568,7 @@ const baseMixins = Object(mixins["a" /* default */])(delayable, toggleable["a" /
   },
 
   mounted() {
-    const slotType = Object(helpers["o" /* getSlotType */])(this, 'activator', true);
+    const slotType = Object(helpers["p" /* getSlotType */])(this, 'activator', true);
 
     if (slotType && ['v-slot', 'normal'].includes(slotType)) {
       Object(util_console["b" /* consoleError */])(`The activator slot must be bound, try '<template v-slot:activator="{ on }"><v-btn v-on="on">'`, this);
@@ -11593,7 +11593,7 @@ const baseMixins = Object(mixins["a" /* default */])(delayable, toggleable["a" /
     },
 
     genActivator() {
-      const node = Object(helpers["n" /* getSlot */])(this, 'activator', Object.assign(this.getValueProxy(), {
+      const node = Object(helpers["o" /* getSlot */])(this, 'activator', Object.assign(this.getValueProxy(), {
         on: this.genActivatorListeners(),
         attrs: this.genActivatorAttributes()
       })) || [];
@@ -11684,7 +11684,7 @@ const baseMixins = Object(mixins["a" /* default */])(delayable, toggleable["a" /
     },
 
     getContentSlot() {
-      return Object(helpers["n" /* getSlot */])(this, 'default', this.getValueProxy(), true);
+      return Object(helpers["o" /* getSlot */])(this, 'default', this.getValueProxy(), true);
     },
 
     getValueProxy() {
@@ -11722,7 +11722,7 @@ const baseMixins = Object(mixins["a" /* default */])(delayable, toggleable["a" /
   }
 }));
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/mixins/dependent/index.js
-var dependent = __webpack_require__(41);
+var dependent = __webpack_require__(42);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/mixins/bootable/index.js
 var bootable = __webpack_require__(38);
@@ -11813,7 +11813,7 @@ function validateAttachTarget(val) {
 
   methods: {
     getScopeIdAttrs() {
-      const scopeId = Object(helpers["l" /* getObjectValueByPath */])(this.$vnode, 'context.$options._scopeId');
+      const scopeId = Object(helpers["m" /* getObjectValueByPath */])(this.$vnode, 'context.$options._scopeId');
       return scopeId && {
         [scopeId]: ''
       };
@@ -11875,7 +11875,7 @@ var positionable = __webpack_require__(20);
       if (typeof window === 'undefined') return 0;
       const content = this.stackElement || this.$refs.content; // Return current zindex if not active
 
-      const index = !this.isActive ? Object(helpers["p" /* getZIndex */])(content) : this.getMaxZIndex(this.stackExclude || [content]) + 2;
+      const index = !this.isActive ? Object(helpers["q" /* getZIndex */])(content) : this.getMaxZIndex(this.stackExclude || [content]) + 2;
       if (index == null) return index; // Return max current z-index (excluding self) + 2
       // (2 to leave room for an overlay below, if needed)
 
@@ -11888,7 +11888,7 @@ var positionable = __webpack_require__(20);
       const base = this.$el; // Start with lowest allowed z-index or z-index of
       // base component's element, whichever is greater
 
-      const zis = [this.stackMinZIndex, Object(helpers["p" /* getZIndex */])(base)]; // Convert the NodeList to an array to
+      const zis = [this.stackMinZIndex, Object(helpers["q" /* getZIndex */])(base)]; // Convert the NodeList to an array to
       // prevent an Edge bug with Symbol.iterator
       // https://github.com/vuetifyjs/vuetify/issues/2146
 
@@ -11896,7 +11896,7 @@ var positionable = __webpack_require__(20);
 
       for (let index = 0; index < activeElements.length; index++) {
         if (!exclude.includes(activeElements[index])) {
-          zis.push(Object(helpers["p" /* getZIndex */])(activeElements[index]));
+          zis.push(Object(helpers["q" /* getZIndex */])(activeElements[index]));
         }
       }
 
@@ -12300,10 +12300,10 @@ const menuable_baseMixins = Object(mixins["a" /* default */])(stackable, positio
 var roundable = __webpack_require__(21);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/directives/click-outside/index.js
-var click_outside = __webpack_require__(42);
+var click_outside = __webpack_require__(39);
 
 // EXTERNAL MODULE: ./node_modules/vuetify/lib/directives/resize/index.js
-var resize = __webpack_require__(39);
+var resize = __webpack_require__(40);
 
 // CONCATENATED MODULE: ./node_modules/vuetify/lib/components/VMenu/VMenu.js
 // Styles
@@ -12526,14 +12526,14 @@ const VMenu_baseMixins = Object(mixins["a" /* default */])(dependent["a" /* defa
 
       if (!this.isActive || !this.hasClickableTiles) {
         return;
-      } else if (e.keyCode === helpers["r" /* keyCodes */].tab) {
+      } else if (e.keyCode === helpers["s" /* keyCodes */].tab) {
         this.isActive = false;
         return;
-      } else if (e.keyCode === helpers["r" /* keyCodes */].down) {
+      } else if (e.keyCode === helpers["s" /* keyCodes */].down) {
         this.nextTile();
-      } else if (e.keyCode === helpers["r" /* keyCodes */].up) {
+      } else if (e.keyCode === helpers["s" /* keyCodes */].up) {
         this.prevTile();
-      } else if (e.keyCode === helpers["r" /* keyCodes */].enter && this.listIndex !== -1) {
+      } else if (e.keyCode === helpers["s" /* keyCodes */].enter && this.listIndex !== -1) {
         this.tiles[this.listIndex].click();
       } else {
         return;
@@ -12699,14 +12699,14 @@ const VMenu_baseMixins = Object(mixins["a" /* default */])(dependent["a" /* defa
     },
 
     onKeyDown(e) {
-      if (e.keyCode === helpers["r" /* keyCodes */].esc) {
+      if (e.keyCode === helpers["s" /* keyCodes */].esc) {
         // Wait for dependent elements to close first
         setTimeout(() => {
           this.isActive = false;
         });
         const activator = this.getActivator();
         this.$nextTick(() => activator && activator.focus());
-      } else if (!this.isActive && [helpers["r" /* keyCodes */].up, helpers["r" /* keyCodes */].down].includes(e.keyCode)) {
+      } else if (!this.isActive && [helpers["s" /* keyCodes */].up, helpers["s" /* keyCodes */].down].includes(e.keyCode)) {
         this.isActive = true;
       } // Allow for isActive watcher to generate tile list
 
